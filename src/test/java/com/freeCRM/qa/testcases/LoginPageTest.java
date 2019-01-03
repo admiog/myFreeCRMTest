@@ -31,6 +31,8 @@ public class LoginPageTest extends TestBase {
     @Test(priority = 2)
     public void verifyLoginTest() {
         loginPage.verifyLogin();
+        String pageTitle = loginPage.verifyPageTitle();
+        assertEquals(pageTitle, "CRMPRO", "Page title mismatch.");
     }
 
     @AfterMethod

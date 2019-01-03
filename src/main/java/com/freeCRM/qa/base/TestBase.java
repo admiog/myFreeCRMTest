@@ -1,7 +1,6 @@
 package com.freeCRM.qa.base;
 
 import com.freeCRM.qa.utils.TestUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -50,6 +49,7 @@ public class TestBase {
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(TestUtils.PAGE_LOAD_TIMEOUTS, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(TestUtils.IMPLICITLY_WAIT, TimeUnit.SECONDS);
         driver.get(prop.getProperty("url"));
     }
 }

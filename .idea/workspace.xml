@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d481807a-4cc0-4873-8db2-fc7563a4c039" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/ContactsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/DealsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freeCRM/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freeCRM/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/freeCRM/qa/utils/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/freeCRM/qa/utils/TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/freeCRM/qa/testcases/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/freeCRM/qa/testcases/LoginPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,19 +26,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="269">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +38,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="77" column="42" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1607#1608#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
+                <element signature="e#1357#1358#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="143">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="80">
               <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -68,13 +108,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="399">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#151#152#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
                 <element signature="e#904#905#0" expanded="true" />
                 <element signature="e#925#926#0" expanded="true" />
               </folding>
@@ -82,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="84">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -117,11 +156,16 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/config/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/ContactsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/DealsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/ProductsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/HomePageTest.java" />
       </list>
     </option>
   </component>
@@ -133,8 +177,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="257" />
-    <option name="y" value="42" />
+    <option name="x" value="223" />
+    <option name="y" value="45" />
     <option name="width" value="1530" />
     <option name="height" value="990" />
   </component>
@@ -168,7 +212,45 @@
               <item name="myFreeCRMTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFreeCRMTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFreeCRMTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qa" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFreeCRMTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFreeCRMTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFreeCRMTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFreeCRMTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,9 +260,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546285705266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546530054005" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.freeCRM.qa.pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bolas\IdeaProjects\myFreeCRMTest\src\main\resources" />
       <recent name="C:\Users\bolas\IdeaProjects\myFreeCRMTest\src\main\crmresources" />
@@ -198,18 +283,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/bolas/IdeaProjects/myFreeCRMTest/src/main/resources/testng.xml">
-    <configuration name="C:/Users/bolas/IdeaProjects/myFreeCRMTest/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myFreeCRMTest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HomePageTest">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myFreeCRMTest" />
       <extension name="coverage">
         <pattern>
@@ -218,7 +293,79 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.freeCRM.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.freeCRM.qa.testcases.LoginPageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.freeCRM.qa.testcases.HomePageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyCombinedContactFormLinkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myFreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freeCRM.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freeCRM.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.freeCRM.qa.testcases.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyCombinedContactFormLinkTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyNewContactsLinkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myFreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freeCRM.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freeCRM.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.freeCRM.qa.testcases.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyNewContactsLinkTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyNewDealsLinkTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myFreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freeCRM.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freeCRM.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.freeCRM.qa.testcases.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyNewDealsLinkTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.verifyProductsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="myFreeCRMTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.freeCRM.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.freeCRM.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.freeCRM.qa.testcases.HomePageTest" />
+      <option name="METHOD_NAME" value="verifyProductsPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -227,8 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/bolas/IdeaProjects/myFreeCRMTest/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.verifyProductsPageTest" />
+        <item itemvalue="TestNG.HomePageTest.verifyCombinedContactFormLinkTest" />
+        <item itemvalue="TestNG.HomePageTest.verifyNewDealsLinkTest" />
+        <item itemvalue="TestNG.HomePageTest.verifyNewContactsLinkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -246,21 +396,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginPageTest - 2018.12.31 at 19h 28m 43s.xml">
-      <configuration name="LoginPageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_verifyNewContactsLinkTest - 2019.01.02 at 18h 29m 35s.xml">
+      <configuration name="HomePageTest.verifyNewContactsLinkTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest - 2018.12.31 at 19h 30m 31s.xml">
-      <configuration name="LoginPageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_verifyNewDealsLinkTest - 2019.01.02 at 18h 34m 35s.xml">
+      <configuration name="HomePageTest.verifyNewDealsLinkTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest - 2018.12.31 at 19h 35m 32s.xml">
-      <configuration name="LoginPageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest_verifyNewDealsLinkTest - 2019.01.02 at 18h 35m 25s.xml">
+      <configuration name="HomePageTest.verifyNewDealsLinkTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest - 2018.12.31 at 19h 40m 18s.xml">
-      <configuration name="LoginPageTest" configurationId="TestNG" />
+    <history-entry file="HomePageTest - 2019.01.02 at 18h 46m 24s.xml">
+      <configuration name="HomePageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_verifyCombinedContactFormLinkTest - 2019.01.02 at 18h 51m 40s.xml">
+      <configuration name="HomePageTest.verifyCombinedContactFormLinkTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_verifyCombinedContactFormLinkTest - 2019.01.02 at 18h 57m 22s.xml">
+      <configuration name="HomePageTest.verifyCombinedContactFormLinkTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_verifyCombinedContactFormLinkTest - 2019.01.02 at 19h 12m 02s.xml">
+      <configuration name="HomePageTest.verifyCombinedContactFormLinkTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest - 2019.01.02 at 19h 12m 46s.xml">
+      <configuration name="HomePageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_verifyProductsPageTest - 2019.01.03 at 00h 01m 20s.xml">
+      <configuration name="HomePageTest.verifyProductsPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest - 2019.01.03 at 00h 02m 54s.xml">
+      <configuration name="HomePageTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="34" width="1224" height="792" extended-state="0" />
+    <frame x="179" y="36" width="1224" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -268,7 +436,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -276,7 +444,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3287879" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287879" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287879" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,26 +474,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/base/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="399">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="80">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -337,25 +509,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/LoginPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="269">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
           <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/ContactsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/DealsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/utils/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/ProductsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/freeCRM/qa/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="77" column="42" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/freeCRM/qa/testcases/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
